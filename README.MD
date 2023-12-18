@@ -3,7 +3,7 @@
 
 This project provides a module for creating loading bars using [fira code's](https://github.com/tonsky/FiraCode) special loading bar glyphs.
 
-![[/images/fira_symbols.png]]
+![Fira code table of loading related dedicated glyphs](/images/fira_symbols.png)
 
 
 ## Overview
@@ -19,7 +19,7 @@ generate_loading_bar(
 ```
 
 This code will generate you a nice loading bar:
-![[images/loading_bar_example.png]]
+![Example of the loading bar, it looks like a loading bar](images/loading_bar_example.png)
 For best results enable font ligatures
 
 ## Usage tip
