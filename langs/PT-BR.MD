@@ -13,6 +13,7 @@ Este projeto providencia uma função para gerar barras de carregamento:
 
 ``` python
 generate_loading_bar(
+
     current_value = 50, # Quanto progresso
     total_value = 100,  # De quanto?
     bar_length = 100    # Opcional, o padrão é 100
