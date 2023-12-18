@@ -3,7 +3,7 @@ This module provides a spinner using fira code's spinner glyphs.
 """
 
 
-def generate_spinner(iterator: int, update_frequency: int):
+def generate_spinner(iterator: int, update_frequency: int = 1):
     """
     Generates a spinner glyph based on the loop iterations.
 
@@ -22,6 +22,3 @@ def generate_spinner(iterator: int, update_frequency: int):
     return glyphs[spinner_index]
 
 
-for i in range(0, 100000):
-    print(f'\r{generate_spinner(i, 2000)}', end='')
-print("\rsuccess!")  # return carriage again to erase the spinner
