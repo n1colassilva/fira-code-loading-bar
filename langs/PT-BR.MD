@@ -46,3 +46,7 @@ Para este você não necessáriamente precisa de ligaturas ativadas mas aí para
 ### Uso
 
 O uso aqui é basicamente dar o iterador à função e de quantas em quantas iterações o spinner deve ser atualizado
+``` python
+for i in range(0, 100000):
+    print(f'\r{generate_spinner(i, 2000)}', end='')
+print("\rsuccess!")  # Retornar a carruagem novamente para apagar o spinner
