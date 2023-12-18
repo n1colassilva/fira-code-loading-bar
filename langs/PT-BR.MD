@@ -4,7 +4,7 @@
 
 Este projeto providencia um modulo para criar barras de carregamento usando os símbolos especiais da fonte [fira code](https://github.com/tonsky/FiraCode).
 
-![[../images/fira_symbols.png]]
+![Tabela de glifos dedicados da fonte fira code para barras de carregamento e "spinners"](../images/fira_symbols.png)
 
 
 ## Overview
@@ -20,7 +20,7 @@ generate_loading_bar(
 ```
 
 este código irá gerar uma bela barra de carregamento:
-![[..images/loading_bar_example.png]]
+![Exemplo de uma barra de carregamento gerada pelo código](../images/loading_bar_example.png)
 Para melhores resultados ative ligaturas de fonte.
 
 ## Como usar
