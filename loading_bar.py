@@ -47,8 +47,3 @@ def generate_loading_bar(current_value: float, total_value: float, bar_length: i
             string_list[i_char] = end_filled_char
 
     return ''.join(string_list)
-
-
-for i in range(1, 100000):
-
-    print(f'\r{generate_loading_bar(i, 100000, 100)}', end='')
