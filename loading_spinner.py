@@ -20,5 +20,3 @@ def generate_spinner(iterator: int, update_frequency: int = 1):
     spinner_index = (iterator // update_frequency) % len(glyphs)
 
     return glyphs[spinner_index]
-
-
