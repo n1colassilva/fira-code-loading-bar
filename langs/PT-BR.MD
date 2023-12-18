@@ -13,9 +13,9 @@ este projeto providencia uma função para gerar barras de carregamento:
 
 ```
 generate_loading_bar(
-    current_value = 50, # How much progress
-    total_value = 100,  # Of how much
-    bar_length = 100    # Optional, default is 100
+    current_value = 50, # Quanto progresso
+    total_value = 100,  # de quanto?
+    bar_length = 100    # Opcional, o padrão é 100
     )
 ```
 
